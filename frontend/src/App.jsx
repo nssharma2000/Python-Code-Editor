@@ -4,7 +4,7 @@ import axios from 'axios';
 
 function App() {
 
-  let backendUrl = "http://127.0.0.1:5000"
+  let backendUrl = "https://python-code-editor-osbl.onrender.com"
 
   const [code, setCode] = useState("#Type code here")
   const [input, setInput] = useState("")
